@@ -7,7 +7,8 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: 2ff3470d-0f4e-49ab-a81d-57f8a020efcb
+    secure: Ac4sGjA+OuIwCrafvfgngRSqSZ7spWUZUJ5gGuaBa3c3psmnwt8QEfMvmGP67xknj1eG/4aVeX53WJYclm9Z5Yl9gylqi9Bk5JXyAshg/E5d7aPUD8rRoDBQI2VN8u2cmdzjl9e9M0BGRLLjGZFzpN4q/DrOvJxtVkFRY5ca8jH/3fzggEQmLg8pdiDG3xKKjIl913vuBA11o7e3LARd6lDEpXblRZnTrDswDOOTXBTZf+XU5DYO3Y6vOQNG3mFiHmDpSMHui7JkLvLmYsmGh100jneQIgRigsP9VkrmXWCw3177s8bC51Yih4IIoM5ew5dtXs8AdV5g7fMfDIpkSZ/7jGpzTgkiFaHisxyN3EKD/OI6DhS/RjUf32i8GfIQblgCDb+3/9W3PxNS91KMcu4jbEzF9pqSj9HmfGuKdrIRBV65951uDg4yU0z2vJbcduBUoGg9GO1C/8axoXHqOUtqHIU1dAEtZDi5oT1XxtXFD7UuFjTUV5AGa/PaTFosOsGUfuNl2BMqHlRZ1NGqdo9JewfuCV1BIGBs9O81iV35QHhO5j9gvm64QT9KCU+6JZitI4uA+7/SKtgMdFtBGFNNTJUTYXgbl1wso+LDnaV+vPPwGWbKn9HyGBGzPZ1EYFm7etfrCbr1Tls+2NL81tRn63aP4rQhHFJb5orUZGo=
+
   strategy: git
   app:
     maine: calendarfinance
