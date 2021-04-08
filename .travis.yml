@@ -8,4 +8,4 @@ deploy:
 
   strategy: git
   app:
-    maine: calendarfinance
+    main: calendarfinance
