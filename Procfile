@@ -1,1 +1,1 @@
-web: node calendarfinance1.js
+web: node bin/server.js
