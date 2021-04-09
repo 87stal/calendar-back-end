@@ -1,1 +1,1 @@
-web: node src/calendarfinance1.js
+web: node calendarfinance1.js
