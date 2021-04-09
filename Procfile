@@ -1,2 +1,1 @@
-$ cat Procfile
-web: npm start
+web: node src/bin/server.js
