@@ -9,5 +9,5 @@ router.post('/auth/register', createAccountLimiter, validate.schemaRegisterUser,
 router.post('/auth/login', validate.schemaLoginUser, userController.login)
 router.post('/auth/logout', guard, userController.logout)
 router.get('/users/current', guard, userController.currentUser)
-router.get('/auth/verify/:verificationToken', userController.verify)
+
 module.exports = router
