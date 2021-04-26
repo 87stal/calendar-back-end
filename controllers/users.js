@@ -1,8 +1,5 @@
 const jwt = require('jsonwebtoken')
 const Users = require('../model/users')
-const fs = require('fs').promises
-const path = require('path')
-const Jimp = require('jimp')
 require('dotenv').config()
 const { HttpCode } = require('../helpers/constants')
 require('dotenv').config()
@@ -92,8 +89,6 @@ const currentUser = (req, res, next) => {
     }
   })
 }
-
-
 
 
 module.exports = { reg, login, logout, currentUser }

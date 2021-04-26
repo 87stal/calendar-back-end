@@ -21,7 +21,5 @@ module.exports = {
   findByEmail,
   findById,
   create,
-  updateToken,
-  findByVerifyToken,
-  updateVerifyToken
+  updateToken
 }
